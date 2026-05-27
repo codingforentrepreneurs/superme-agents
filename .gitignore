@@ -1,0 +1,43 @@
+# Secrets and auth
+.env
+.env.*
+!.env.example
+auth.json
+credentials.json
+token*.json
+*.pem
+*.key
+
+# Hermes runtime state
+state.db
+state.db-
+state.db-*
+*.sqlite
+*.sqlite3
+
+memories/
+sessions/
+logs/
+workspace/
+plans/
+home/
+local/
+tmp/
+cache/
+*_cache/
+audio_cache/
+image_cache/
+document_cache/
+
+# Python/tool caches
+__pycache__/
+pycache/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor / OS files
+.DS_Store
+.vscode/
+.idea/
