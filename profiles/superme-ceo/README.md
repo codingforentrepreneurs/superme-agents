@@ -5,7 +5,7 @@ This directory is the git-tracked source of truth for portable Hermes profile fi
 Corresponding live Hermes profile:
 
 ```
-/Users/cfe/.hermes/profiles/superme-ceo
+~/.hermes/profiles/superme-ceo
 ```
 
 Hermes reads the portable profile files through symlinks from the live profile directory back to this directory.
