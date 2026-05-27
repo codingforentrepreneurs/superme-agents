@@ -1,10 +1,15 @@
 name: superme-ceo
 version: 0.1.0
-description: "Leader of agents for https://superme.co"
-hermes_requires: ""
-author: ""
-license: ""
-env_requires: 
-  - name: SAMPLE_VAR
-    description: "Sample variable"
-    required: true
+description: "Chief executive officer agent for Superme: company strategy, executive decisions, operating cadence, and cross-functional accountability."
+hermes_requires: ">=0.12.0"
+author: "superme-agents"
+license: "MIT"
+env_requires: []
+distribution_owned:
+  - SOUL.md
+  - profile.md
+  - README.md
+  - config.yaml
+  - mcp.json
+  - skills/
+  - cron/

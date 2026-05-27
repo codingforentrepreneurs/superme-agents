@@ -1,7 +1,15 @@
 name: superme-coder
 version: 0.1.0
-description: ""
-hermes_requires: ""
-author: ""
-license: ""
+description: "Focused software engineering agent for repo inspection, implementation, debugging, tests, code review, and GitHub workflows."
+hermes_requires: ">=0.12.0"
+author: "superme-agents"
+license: "MIT"
 env_requires: []
+distribution_owned:
+  - SOUL.md
+  - profile.md
+  - README.md
+  - config.yaml
+  - mcp.json
+  - skills/
+  - cron/

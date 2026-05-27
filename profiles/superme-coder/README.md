@@ -1,11 +1,13 @@
 # superme-coder
 
+Focused software engineering profile for Superme. Use this agent for code implementation, debugging, tests, CI triage, code review, repo maintenance, developer tooling, and Git/GitHub workflows.
+
 This directory is the git-tracked source of truth for portable Hermes profile files.
 
 Corresponding live Hermes profile:
 
 ```
-~/.hermes/profiles/superme-coder
+/Users/cfe/.hermes/profiles/superme-coder
 ```
 
 Hermes reads the portable profile files through symlinks from the live profile directory back to this directory.
@@ -17,11 +19,20 @@ Hermes reads the portable profile files through symlinks from the live profile d
 - config.yaml
 - mcp.json
 - skills/
-- plugins/
 - cron/
-- AGENTS.md
-- CLAUDE.md
 - profile.md
+
+## Bundled capabilities
+
+- Software development planning, spikes, test-driven development, debugging, and code review
+- Python and Node debugging workflows
+- GitHub authentication, issues, PRs, code review, and repo management
+- DevOps automation hooks that support engineering delivery
+- Native MCP and coding-agent orchestration where it directly supports software work
+
+## Excluded by design
+
+This profile should not carry media, personal productivity, smart-home, social, gaming, generic creative, or non-engineering research skill bundles. Keep those capabilities in the profiles that own those jobs.
 
 ## Runtime files
 

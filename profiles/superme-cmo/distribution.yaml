@@ -1,7 +1,15 @@
 name: superme-cmo
 version: 0.1.0
-description: ""
-hermes_requires: ""
-author: ""
-license: ""
+description: "Chief marketing officer agent for Superme: positioning, GTM, campaigns, growth strategy, and marketing performance."
+hermes_requires: ">=0.12.0"
+author: "superme-agents"
+license: "MIT"
 env_requires: []
+distribution_owned:
+  - SOUL.md
+  - profile.md
+  - README.md
+  - config.yaml
+  - mcp.json
+  - skills/
+  - cron/

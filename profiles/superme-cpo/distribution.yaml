@@ -1,7 +1,15 @@
 name: superme-cpo
 version: 0.1.0
-description: ""
-hermes_requires: ""
-author: ""
-license: ""
+description: "Chief product officer agent for Superme: product vision, roadmap, discovery, PRDs, experiments, and launch quality."
+hermes_requires: ">=0.12.0"
+author: "superme-agents"
+license: "MIT"
 env_requires: []
+distribution_owned:
+  - SOUL.md
+  - profile.md
+  - README.md
+  - config.yaml
+  - mcp.json
+  - skills/
+  - cron/

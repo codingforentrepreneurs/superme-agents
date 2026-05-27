@@ -1,11 +1,13 @@
 # superme-cmo
 
+Chief marketing officer profile for Superme. Use this agent for positioning, market strategy, GTM planning, launch strategy, campaign direction, channel strategy, growth priorities, and marketing performance interpretation.
+
 This directory is the git-tracked source of truth for portable Hermes profile files.
 
 Corresponding live Hermes profile:
 
 ```
-~/.hermes/profiles/superme-cmo
+/Users/cfe/.hermes/profiles/superme-cmo
 ```
 
 Hermes reads the portable profile files through symlinks from the live profile directory back to this directory.
@@ -17,11 +19,12 @@ Hermes reads the portable profile files through symlinks from the live profile d
 - config.yaml
 - mcp.json
 - skills/
-- plugins/
 - cron/
-- AGENTS.md
-- CLAUDE.md
 - profile.md
+
+## Role boundary
+
+Use `superme-cmo` for marketing leadership and strategic direction. Route execution-heavy content production to `superme-content-creator`, product promises to `superme-cpo`, and company-level tradeoffs to `superme-ceo`.
 
 ## Runtime files
 

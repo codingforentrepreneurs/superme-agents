@@ -1,5 +1,7 @@
 # superme-content-creator
 
+Production-focused content creator profile for Superme. Use this agent for creating, editing, repurposing, packaging, and QA'ing content from approved strategy briefs and source material.
+
 This directory is the git-tracked source of truth for portable Hermes profile files.
 
 Corresponding live Hermes profile:
@@ -17,11 +19,12 @@ Hermes reads the portable profile files through symlinks from the live profile d
 - config.yaml
 - mcp.json
 - skills/
-- plugins/
 - cron/
-- AGENTS.md
-- CLAUDE.md
 - profile.md
+
+## Role boundary
+
+Use `superme-content-creator` for publishable asset production. Escalate strategic ambiguity to `superme-cmo`, product claims to `superme-cpo`, technical claims to `superme-coder`, and approval conflicts to `superme-ceo`.
 
 ## Runtime files
 

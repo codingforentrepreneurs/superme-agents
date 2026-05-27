@@ -1,7 +1,15 @@
 name: superme-content-creator
 version: 0.1.0
-description: ""
-hermes_requires: ""
-author: ""
-license: ""
+description: "Production-focused Superme content creator agent for drafting, editing, repurposing, packaging, and scheduling marketing content."
+hermes_requires: ">=0.12.0"
+author: "superme-agents"
+license: "MIT"
 env_requires: []
+distribution_owned:
+  - SOUL.md
+  - profile.md
+  - README.md
+  - config.yaml
+  - mcp.json
+  - skills/
+  - cron/
