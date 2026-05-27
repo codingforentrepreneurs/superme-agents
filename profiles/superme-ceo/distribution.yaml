@@ -1,0 +1,10 @@
+name: superme-ceo
+version: 0.1.0
+description: "Leader of agents for https://superme.co"
+hermes_requires: ""
+author: ""
+license: ""
+env_requires: 
+  - name: SAMPLE_VAR
+    description: "Sample variable"
+    required: true
